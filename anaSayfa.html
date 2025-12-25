@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="icon" href="images/logolar/topLogo.png">
+<link rel="stylesheet" href="css/anaSayfa.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Yalova Market</title>
+</head>
+<body>
+    <!-- En Üst Menü -->
+    <div class="topMenu">
+        <p class="logoYalova">Yalova</p>
+        <p class="logoMarket">Market</p>
+        <a href="girisYap.html">
+            <button id="girisYapButton">Giriş Yap</button>
+        </a>
+        <a href="kayitOl.html">
+            <button>Kayıt Ol</button>
+        </a>
+    </div>
+    <!-- İkinci Üst Menü -->
+    <div class="topMenuSecond">
+        <input autocomplete="off" placeholder="Aramak İstediğin Ürünü Yaz" type="text" id="aramaKutusu">
+        <img src="images/logolar/search.png" id="buyutecImage">
+        <button onclick="sepetKutusu()" class="sepetButon"><img src="images/logolar/sepet.png" id="sepet"></button>
+    </div>
+    <!-- Ürünler Bölümü -->
+    <!-- Sepet Kutusu -->
+    <div id="sepetKutusu">
+        <p id="ürünler"></p>
+        <button id="silButonu" onclick="sepetTemizle()">Sil</button>
+
+    </div>
+    <div class="productMenu" id="productMenu">
+        <div id="product1" class="product-item">
+            <p class="product-name">Ülker Gofret</p>
+            <img src="images/ürünler/ulker-cikolata.png" class="ulkerCikolata">
+        </div>
+        <div id="product2" class="product-item">
+            <p class="product-name">Ülker Halley</p>
+            <img src="images/ürünler/halley.png" class="halley">
+        </div>
+        <div id="product3" class="product-item">
+            <p class="product-name">Ülker Rondo</p>
+            <img src="images/ürünler/rondo.png" class="rondo">
+        </div>
+        <div id="product4" class="product-item">
+            <p class="product-name">Eti Burçak Coconut</p>
+            <img src="images/ürünler/eti-burcak.png" class="etiBurcak">
+        </div>
+        <div id="product5" class="product-item">
+            <p class="product-name">Eti Puf Coconut</p>
+            <img src="images/ürünler/eti-puf.png" class="etiPuf">
+        </div>
+        <div id="product6" class="product-item">
+            <p class="product-name">Biscolata Mood</p>
+            <img src="images/ürünler/biscolata-mood.png" class="mood">
+        </div>
+        <div id="product7" class="product-item">
+            <p class="product-name">Luppo Red Velvet</p>
+            <img src="images/ürünler/luppo-red-velvet.png" class="luppo">
+        </div>
+        <div id="product8" class="product-item">
+            <p class="product-name">Nesquik Bar</p>
+            <img src="images/ürünler/nesquik-bar.png" class="bar">
+        </div>
+        <div id="product9" class="product-item">
+            <p class="product-name">Nesquik Süt Tozu</p>
+            <img src="images/ürünler/nesquik-sut-tozu.png" class="toz">
+        </div>
+        <div id="product10" class="product-item">
+            <p class="product-name">Torku Bisküvi</p>
+            <img src="images/ürünler/torku-tam-cikolatam.png" class="torku">
+        </div>
+    </div>
+    <!-- En Alt Kutu -->
+    <div class="enAltMenu">
+        <p>Ali Karani Köse - 230101066</p>
+        <p>Berhan Baki - 230101022</p>
+        <p class="projeYazi">Yalova Üniversitesi Bilgisayar Mühendisliği Bölümü İkinci Sınıf Veri Yapıları Dersi Güz Dönemi Projesi</p>
+    </div>
+</body>
+<!-- Java Scripts -->
+<script src="anaSayfaAnimasyonlar.js"></script>
+<script src="anaSayfaVeriYapisi.js"></script>
+</html>

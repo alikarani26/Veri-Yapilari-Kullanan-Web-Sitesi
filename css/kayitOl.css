@@ -1,0 +1,115 @@
+body {
+    background-color: #fff;
+}
+
+.topMenu {
+        background-color: #3498db;
+        width: 100%;
+        height: 100px;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+    }
+    .topMenu p {
+        font-family: "open sans", sans-serif;
+        font-weight: 500;
+        position: absolute;
+        cursor: default;
+        left: 30px;
+        filter: drop-shadow(1px 1px 1px black);
+    }
+    .logoYalova {
+        color: #012d4a;
+        font-size: 45px;
+        top: -50px;
+    }
+    .logoMarket {
+        color: #3a182c;
+        font-size: 55px;
+        bottom: -50px;
+    }
+
+.kayitSayfasi {
+    width: 40%;
+    height: 500px;
+    background-color: #3498db;
+    position: absolute;
+    left: 30%;
+    filter: drop-shadow(1px 1px 1px black);
+    border-radius: 30px;
+    top: 150px;
+}
+
+/* Inputlar */
+
+input{
+    font-family: "open sans" , sans-serif;
+    position: absolute;
+    width: 50%;
+    border-radius: 30px;
+    border: 1px solid black;
+    height: 20px;
+    padding-left: 10px;
+}
+
+#eposta {
+    top: 200px;
+    left: 25%;
+}
+
+#sifre{
+    top: 375px;
+    left: 25%;
+}
+
+p{
+    font-family: "open sans", sans-serif;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    filter: drop-shadow(1px 1px 1px black);
+    text-align: center;
+}
+
+.epostaYazi {
+    top: 150px;
+    left: 160px;
+}
+
+.sifreYazi {
+    top: 320px;
+    left: 160px;
+}
+
+#kayıtOl {
+    position: absolute;
+    width: 70px;
+    height: 20px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 30px;
+    left: 260px;
+    bottom: 50px;
+    cursor: pointer;
+    transition: all ease 0.2s;
+}
+
+#kayıtOl:hover {
+    background-color: grey;
+}
+
+#sifreGoster {
+    border-radius: 30px;
+    border: 1px solid black;
+    position: absolute;
+    right: -40px;
+    bottom: 100px;
+}
+
+.kayitOlYazisi {
+    font-size: 30px;
+    left: 185px;
+    top: 7px;
+    cursor: default;
+}
+

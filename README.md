@@ -1,0 +1,5 @@
+veri yapıları proje ödevi
+
+HASH TABLE --> ARAMA KUTUSU
+LINKED LIST --> SEPET 
+STACK --> UYE OLMA VE KAYIT OLMA
